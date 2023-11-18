@@ -5,13 +5,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
-      <SEO
-        lang="en"
-        title="Home page"
-        description="Description of the home page"
-        name="name from home page"
-        type="website"
-      />
+      <SEO lang="en" title="404" description="Page not found" name="name from home page" type="website" />
       <Container
         fontSize="6xl"
         h="100dvh"
